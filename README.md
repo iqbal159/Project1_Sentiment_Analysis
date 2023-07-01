@@ -45,8 +45,8 @@ Fields in the dataset: created_at, text, screen_name, source, location, follower
              a) Run below code to label header for each field in part-00000 (in local drive) 
 
 from pandas import read_csv 
-label = read_csv("part-00000") 
-#Label the column names according to the required output fields, below is the sample 
+label = read_csv("part-00000") <br>
+#Label the column names according to the required output fields, below is the sample <br>
 label.columns = ["created_at", "text", "screen_name", "source", "location", "followers_count", "friends_count", 
 "retweet_count", "favourite_count", "language", "sentiment_polarity"] 
 label.to_csv("part-00000headers1.csv",index = False) 
