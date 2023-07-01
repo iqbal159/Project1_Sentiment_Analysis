@@ -54,3 +54,30 @@ label.to_csv("part-00000headers1.csv",index = False)
 Step 12: Ingest the file with header into GIANT
 
 ## Tutorial_2 - Data Visualization using GIANT Dashboard<br>
+
+  - Step 1: Edit the source and convert followers_count, friends_count to numeric data type
+![image](https://github.com/iqbal159/Project1_Sentiment_Analysis/assets/130142247/8351f8cd-a387-41d0-8312-802e124d6799)
+
+  - Step 2:  Perform a “split column” on sentiment to remove the last bracket
+![image](https://github.com/iqbal159/Project1_Sentiment_Analysis/assets/130142247/6378b323-e7a3-41b6-b404-89276a84e163)
+
+ - Step 3:  Hide the original sentiment and the bracket columns, then Save
+![image](https://github.com/iqbal159/Project1_Sentiment_Analysis/assets/130142247/cac6bfd7-9265-4416-a354-fad99bf207d2)
+
+ - Step 4: Use Giant Smart Query to perform analysis and creating Dashboard based on the dataset
+   
+    1) Sentiment Polarity vs Followers Count - Positve and Neutral Tweets seemed to have more followers count than someone who has Negative tweets.
+![image](https://github.com/iqbal159/Project1_Sentiment_Analysis/assets/130142247/875b328d-1219-4ef5-8ba8-f3a81e326909)
+
+    2) Sentiment Polarity by Locations - Most of the tweeted worldwide are from Positive and Neutral sentiment
+![image](https://github.com/iqbal159/Project1_Sentiment_Analysis/assets/130142247/2f9ed165-a0dc-4488-a790-ee95b142b195)
+
+    3) Sentiment Polarity vs Retweeted Count - Others twitter users moslty retweeted on Positive and Neutral sentiment
+![image](https://github.com/iqbal159/Project1_Sentiment_Analysis/assets/130142247/a901329f-1eac-419e-b95f-be80d1fba9d4)
+
+
+
+
+
+
+
