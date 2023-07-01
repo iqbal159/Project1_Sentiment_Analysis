@@ -48,7 +48,7 @@ from pandas import read_csv
 label = read_csv("part-00000") <br>
 #Label the column names according to the required output fields, below is the sample <br>
 label.columns = ["created_at", "text", "screen_name", "source", "location", "followers_count", "friends_count", 
-"retweet_count", "favourite_count", "language", "sentiment_polarity"] 
+"retweet_count", "favourite_count", "language", "sentiment_polarity"] <br>
 label.to_csv("part-00000headers1.csv",index = False) 
 
 Step 12: Ingest the file with header into GIANT
