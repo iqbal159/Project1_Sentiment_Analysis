@@ -11,7 +11,7 @@ created_at, text, screen_name, source, location, followers_count, friends_count,
 ### Dataset: blockchain.csv (tweets are in English) 
 Fields in the dataset: created_at, text, screen_name, source, location, followers_count, friends_count, retweet_count, language 
 
-## Tutorial<br>
+## Tutorial_1 - Data Engineering<br>
 
   - Step 1: Move the dataset and spark_SA_assessment.py into ipython directory.  
 
@@ -52,3 +52,5 @@ label.columns = ["created_at", "text", "screen_name", "source", "location", "fol
 label.to_csv("part-00000headers1.csv",index = False) 
 
 Step 12: Ingest the file with header into GIANT
+
+## Tutorial_2 - Data Visualization using GIANT Dashboard<br>
