@@ -1,5 +1,5 @@
 # Project1_Sentiment_Analysis
-## (Twitter Sentiment Analysis Project_Data Engineering)
+## Twitter Sentiment Analysis Project_Data Engineering (Fusionex Data Engineer Programme)
 
 ### Overview
 Create a Spark Application to perform sentiment analysis on tweets, and populate the sentiment 
